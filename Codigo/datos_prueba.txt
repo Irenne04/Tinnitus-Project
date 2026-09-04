@@ -1,0 +1,21 @@
+[Datos_prueba]
+t_durac = 1.500000
+sensibilidad = 117.000000
+mismo = 
+dB_level = 20.000000
+freq1 = 250.000000
+freq2 = 8000.000000
+fs = 44100.000000
+Observa = 
+t1 = 2025.000000
+t1 = 5.000000
+t1 = 16.000000
+t1 = 13.000000
+t1 = 39.000000
+t1 = 36.226000
+Serie_ascendente = 250      291.6667      340.2778      396.9907
+Serie_descendente = 8000      6666.6667      5555.5556
+Iteraciones_serie_ascendente = 4.000000
+Iteraciones_serie_descendente = 3.000000
+Octava = 1485.094
+Freq_sele = 1485.094

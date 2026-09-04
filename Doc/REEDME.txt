@@ -1,0 +1,29 @@
+The files in the "TinniT_US" folder must not be modified or moved to another directory.
+
+**Developer Permissions
+To modify the standard values of the control parameters, use the config.ini and dBHL.ini files.
+The config.m and dBHL.m files generate the .ini files, which store the standard values used in the tests. As well as calibrar.m generate the calibrar.ini file, in order to calibrate the headphones.
+
+**Programs Information
+calibrar.m: Creates the calibrar.ini file to define the parameters to calibrate.
+calibrar_dB_HD_280_PRO.m: adjust the decibels we want (for a given frequency) to the decibels that must be entered in the program to obtain the desired decibels for the headphones.
+calibrar_HD_280_PRO.xlsx: file to calibrate the headsphones. 
+config.m: Creates the config.ini file to define the control data used in the tests.
+datos_prueba.txt: File created to transcribe the data until the final data file viewed by the audiologist.
+dBHL.m: Creates the dBHL.ini file to store the frequencies used in the audiometry test, following the AAOO standards.
+ejecutar.m: Main program that runs the different tests (internal function, not recommended to modify).
+gain.m (© 2025 Almudena Eustaquio Martín): Applies a gain in dB to an input signal x.
+PlayBlocking_ASIO.m (© 2025 Almudena Eustaquio Martín): Plays sound through an ASIO-compatible sound card (default: RME Fireface). Requires the Matlab Audio Toolbox.
+ramp.m (© 2007 Almudena Eustaquio Martín): Applies a ramp to both single-row and single-column signals. Returns an error if the input matrix has multiple dimensions.
+read_ini.m: Reads .ini files.
+Prueba_dB.m: mini program to test sound listening by using Almudena functions.
+relaciondBHL.m: Converts dB SPL to dB HL for possible use in audiogram representation.
+rms_usal.m (© 2008 Almudena Eustaquio Martín): Calculates the Root Mean Square (RMS) value of signal x.
+rms2dBspl.m (© 2008 Almudena Eustaquio Martín): Converts an RMS amplitude to dB SPL, considering system calibration.
+select_SoundCardDriver.m (© 2025 Almudena Eustaquio Martín): Detects ASIO devices.
+sonidoASIO.m: Function to play a signal using ASIO.
+SetSignalLevel.m (© 2025 Almudena Eustaquio Martín): Sets the amplitude relative to a given dB value and with a proposed sensitivity.
+TinniT_US_play.m: Main program, intended for audiologists to use during tests.
+
+**Program To Use
+The program used by the audiologist is "PROGRAMA_PRINCIPAL_ACUFENOMETRIAS.m" The rest of the programs are internal functions of the base program.

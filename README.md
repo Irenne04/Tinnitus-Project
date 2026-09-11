@@ -1,6 +1,6 @@
 # TinniT_US
 
-Sistema de software para la ejecución, calibración y evaluación de pruebas de acufenometría y audiometría en el ámbito clínico, junto con un módulo de revisión bibliográfica sobre el tinnitus.
+Sistema de software clínico y educativo diseñado para la ejecución, calibración y evaluación de pruebas de acufenometría y audiometría. Desarrollado durante el periodo de prácticas en el Instituto de Neurociencias de Castilla y León (INCyL) para el Grado en Audiología de la Universidad de Salamanca (USAL). Incluye un módulo integrado de revisión bibliográfica sobre el acúfeno (tinnitus).
 
 > ⚠️ **IMPORTANTE:** Los archivos contenidos en la carpeta `TinniT_US` **no deben ser modificados ni movidos** a otro directorio para garantizar la integridad y el correcto funcionamiento del sistema.
 
